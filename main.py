@@ -1,4 +1,3 @@
-from pygame.locals import *
 import pygame
 import os
 
@@ -6,7 +5,7 @@ os.environ['SDL_VIDEO_CENTERED'] = '1' # for full screen
 
 width, height = 1920,1080
 win = (width, height)
-screen = pygame.display.set_mode(win,DOUBLEBUF)
+screen = pygame.display.set_mode(win)
 xaxis = width/1.80 + 150
 yaxis = height/2
 scale = 450 # mandakbrot size
