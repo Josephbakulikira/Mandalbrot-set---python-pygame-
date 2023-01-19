@@ -55,7 +55,7 @@ def main():
         #     print("ok2")
         # if keys[pygame.K_UP]:
         #     iterations = iterations + 5
-        #     pygame.diplay.update()
+        #     pygame.display.update()
         # if keys[pygame.K_DOWN]:
         #
         #     pygame.display.update()
